@@ -1,0 +1,84 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Gobstoppers",
+            "price": 1.50,
+            "productTypeId": 1
+        },
+        {
+            "id": 2,
+            "name": "Wonka Bar",
+            "price": 4.50,
+            "productTypeId": 3
+        },
+        {
+            "id": 3,
+            "name": "Big League Chew",
+            "price": 5.500,
+            "productTypeId": 2
+        },
+        {
+            "id": 4,
+            "name": "Chiclets",
+            "price": 2.50,
+            "productTypeId": 1
+        },
+        {
+            "id": 5,
+            "name": "Root Beer",
+            "price": 2.50,
+            "productTypeId": 4
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "name": "Kandy Korner West",
+            "address": "1492 Sweet Street",
+            "squareFootage": 9000,
+            "handicapAccessible": true
+        },
+        {
+            "id": 2,
+            "name": "Kandy Korner North",
+            "address": "2385 Cavity Lane",
+            "squareFootage": 3000,
+            "handicapAccessible": false
+        },
+        {
+            "id": 3,
+            "name": "Kandy Korner East",
+            "address": "2093 Sour Patch Road",
+            "squareFootage": 8000,
+            "handicapAccessible": true
+        },
+        {
+            "id": 4,
+            "name": "Kandy Korner South",
+            "address": "2894 Lick A Lot Court",
+            "squareFootage": 2000,
+            "handicapAccessible": false
+        }
+    ],
+    "employees": [],
+    "productTypes": [
+        {
+            "id": 1,
+            "productType": "Hard Candy"
+        },
+        {
+            "id": 2,
+            "productType": "Gum"
+        },
+        {
+            "id": 3,
+            "productType": "Chocolate"
+        },
+        {
+            "id": 4,
+            "productType": "Sodas"
+        }
+    ],
+    "customers": []
+}
