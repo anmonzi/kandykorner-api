@@ -26,8 +26,50 @@
     },
     {
       "id": 5,
-      "name": "Root Beer",
-      "price": 2.5,
+      "name": "Gummi Worms",
+      "price": 1.75,
+      "productTypeId": 4
+    },
+    {
+      "id": 6,
+      "name": "Jolly Ranchers",
+      "price": 3.73,
+      "productTypeId": 1
+    },
+    {
+      "id": 7,
+      "name": "Jaw Breakers",
+      "price": 3.99,
+      "productTypeId": 1
+    },
+    {
+      "id": 8,
+      "name": "Doublemint",
+      "price": 3.50,
+      "productTypeId": 2
+    },
+    {
+      "id": 9,
+      "name": "Kit Kat",
+      "price": 2.99,
+      "productTypeId": 3
+    },
+    {
+      "id": 10,
+      "name": "M & M's",
+      "price": 3.00,
+      "productTypeId": 3
+    },
+    {
+      "id": 11,
+      "name": "Gummi Bears",
+      "price": 2.00,
+      "productTypeId": 4
+    },
+    {
+      "id": 12,
+      "name": "Sour Patch Kids",
+      "price": 3.50,
       "productTypeId": 4
     }
   ],
@@ -63,12 +105,28 @@
   ],
   "employees": [
     {
-      "name": "Jacob Spicer",
+      "name": "Samantha Johnson",
       "locationId": 1,
-      "manager": "No",
-      "fullTime": "Yes",
-      "hourlyRate": "12.50",
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": 30,
       "id": 1
+    },
+    {
+      "name": "Jon Watson",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": "true",
+      "hourlyRate": 17,
+      "id": 2
+    },
+    {
+      "name": "Ali Goodwill",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 10,
+      "id": 3
     }
   ],
   "productTypes": [
@@ -86,7 +144,7 @@
     },
     {
       "id": 4,
-      "type": "Sodas"
+      "type": "Gummies"
     }
   ],
   "customers": [
@@ -94,6 +152,14 @@
       "email": "sarah@gmail.com",
       "name": "Sarah Norman",
       "id": 1
+    },
+    {
+      "email": "nicole@aol.com",
+      "name": "Nicole  Sweeny",
+      "id": 2
     }
+  ],
+  "customerCandys": [
+
   ]
 }
