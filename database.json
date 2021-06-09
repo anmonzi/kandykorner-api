@@ -45,7 +45,7 @@
     {
       "id": 8,
       "name": "Doublemint",
-      "price": 3.50,
+      "price": 3.5,
       "productTypeId": 2
     },
     {
@@ -57,19 +57,19 @@
     {
       "id": 10,
       "name": "M & M's",
-      "price": 3.00,
+      "price": 3,
       "productTypeId": 3
     },
     {
       "id": 11,
       "name": "Gummi Bears",
-      "price": 2.00,
+      "price": 2,
       "productTypeId": 4
     },
     {
       "id": 12,
       "name": "Sour Patch Kids",
-      "price": 3.50,
+      "price": 3.5,
       "productTypeId": 4
     }
   ],
@@ -113,20 +113,52 @@
       "id": 1
     },
     {
-      "name": "Jon Watson",
-      "locationId": 1,
-      "manager": false,
-      "fullTime": "true",
-      "hourlyRate": 17,
-      "id": 2
-    },
-    {
-      "name": "Ali Goodwill",
+      "name": "Nick Watts",
       "locationId": 1,
       "manager": false,
       "fullTime": false,
-      "hourlyRate": 10,
+      "hourlyRate": 9,
       "id": 3
+    },
+    {
+      "name": "Sarah Jobbs",
+      "locationId": 1,
+      "manager": false,
+      "fullTime": "true",
+      "hourlyRate": 15.75,
+      "id": 4
+    },
+    {
+      "name": "Kandace Lane",
+      "locationId": 2,
+      "manager": false,
+      "fullTime": false,
+      "hourlyRate": 7.85,
+      "id": 6
+    },
+    {
+      "name": "Kylee Potts",
+      "locationId": 2,
+      "manager": "false",
+      "fullTime": "false",
+      "hourlyRate": 9.5,
+      "id": 7
+    },
+    {
+      "id": 8,
+      "name": "Jon Watson",
+      "locationId": 3,
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": 35.6
+    },
+    {
+      "name": "Ron Jackson",
+      "locationId": 4,
+      "manager": "true",
+      "fullTime": "true",
+      "hourlyRate": 30.5,
+      "id": 9
     }
   ],
   "productTypes": [
@@ -157,9 +189,128 @@
       "email": "nicole@aol.com",
       "name": "Nicole  Sweeny",
       "id": 2
+    },
+    {
+      "email": "ricker@gmail.com",
+      "name": "Ricky Roads",
+      "id": 3
+    },
+    {
+      "email": "ruby@aol.com",
+      "name": "Ruby Roads",
+      "id": 4
     }
   ],
   "customerCandys": [
-
+    {
+      "customerId": 2,
+      "productId": 2,
+      "id": 1
+    },
+    {
+      "customerId": 2,
+      "productId": 6,
+      "id": 2
+    },
+    {
+      "customerId": 2,
+      "productId": 5,
+      "id": 3
+    },
+    {
+      "customerId": 2,
+      "productId": 10,
+      "id": 4
+    },
+    {
+      "customerId": 1,
+      "productId": 10,
+      "id": 5
+    },
+    {
+      "customerId": 1,
+      "productId": 5,
+      "id": 6
+    },
+    {
+      "customerId": 1,
+      "productId": 2,
+      "id": 7
+    },
+    {
+      "customerId": 1,
+      "productId": 11,
+      "id": 8
+    },
+    {
+      "customerId": 2,
+      "productId": 6,
+      "id": 9
+    },
+    {
+      "customerId": 2,
+      "productId": 4,
+      "id": 10
+    },
+    {
+      "customerId": 3,
+      "productId": 7,
+      "id": 11
+    },
+    {
+      "customerId": 3,
+      "productId": 9,
+      "id": 12
+    },
+    {
+      "customerId": 3,
+      "productId": 12,
+      "id": 13
+    },
+    {
+      "customerId": 3,
+      "productId": 6,
+      "id": 14
+    },
+    {
+      "customerId": 3,
+      "productId": 4,
+      "id": 15
+    },
+    {
+      "customerId": 3,
+      "productId": 1,
+      "id": 16
+    },
+    {
+      "customerId": 3,
+      "productId": 2,
+      "id": 17
+    },
+    {
+      "customerId": 3,
+      "productId": 3,
+      "id": 18
+    },
+    {
+      "customerId": 3,
+      "productId": 6,
+      "id": 19
+    },
+    {
+      "customerId": 4,
+      "productId": 12,
+      "id": 20
+    },
+    {
+      "customerId": 4,
+      "productId": 9,
+      "id": 21
+    },
+    {
+      "customerId": 4,
+      "productId": 7,
+      "id": 22
+    }
   ]
 }
